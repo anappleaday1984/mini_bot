@@ -8,17 +8,17 @@
 
 | 來源 | 網址 |
 |------|------|
-| OpenAI | <https://openai.com/blog/rss.xml> |
-| Anthropic | <https://www.anthropic.com/rss.xml> |
-| Google AI | <http://googleaiblog.blogspot.com/atom.xml> |
-| DeepMind | <https://deepmind.google/blog/rss.xml> |
-| Microsoft AI | <https://blogs.microsoft.com/ai/feed/> |
-| Meta AI | <https://ai.meta.com/blog/rss.xml> |
-| Hugging Face | <https://huggingface.co/blog/rss.xml> |
-| MIT Tech Review | <https://www.technologyreview.com/topic/artificial-intelligence/feed> |
-| AI Weekly | <https://aiweekly.co/issues/rss.xml> |
-| Wired AI | <https://www.wired.com/feed/category/ai/latest/rss> |
-| LangChain | <https://blog.langchain.dev/rss.xml> |
+| OpenAI | [openai.com/blog/rss.xml](https://openai.com/blog/rss.xml) |
+| Anthropic | [www.anthropic.com/rss.xml](https://www.anthropic.com/rss.xml) |
+| Google AI | [googleaiblog.blogspot.com/atom.xml](http://googleaiblog.blogspot.com/atom.xml) |
+| DeepMind | [deepmind.google/blog/rss.xml](https://deepmind.google/blog/rss.xml) |
+| Microsoft AI | [blogs.microsoft.com/ai/feed](https://blogs.microsoft.com/ai/feed/) |
+| Meta AI | [ai.meta.com/blog/rss.xml](https://ai.meta.com/blog/rss.xml) |
+| Hugging Face | [huggingface.co/blog/rss.xml](https://huggingface.co/blog/rss.xml) |
+| MIT Tech Review | [technologyreview.com/AI feed](https://www.technologyreview.com/topic/artificial-intelligence/feed) |
+| AI Weekly | [aiweekly.co/issues/rss.xml](https://aiweekly.co/issues/rss.xml) |
+| Wired AI | [wired.com/AI latest](https://www.wired.com/feed/category/ai/latest/rss) |
+| LangChain | [blog.langchain.dev/rss.xml](https://blog.langchain.dev/rss.xml) |
 
 ---
 
@@ -27,21 +27,21 @@
 ```
 ai_news/
 ├── README.md                         ← 本說明檔
-├── ai_news_YYYYMMDD_HHMMSS.html     ← 每日新聞（自動產生）
+├── ai_news_YYYYMMDD_HHMMSS.html    ← 每日新聞（自動產生）
 └── weekly/
     └── ai_news_YYYYMMDD.html        ← 每週合併摘要（週日）
 ```
 
 ### 檔案命名規則
 
-- **每日**：以當天日期命名，如 `ai_news_20260213_090501.html`
-- **每週**：以該週週日日期命名，如 `ai_news_20260215.html`
+- **每日**：以當天日期命名，如 ai_news_20260213_090501.html
+- **每週**：以該週週日日期命名，如 ai_news_20260215.html
 
 ---
 
 ## 🔄 同步方式
 
-每日自動同步腳本：`scripts/ai_news_sync.py`
+每日自動同步腳本：scripts/ai_news_sync.py
 
 ```bash
 # 每日同步
@@ -58,7 +58,7 @@ python3 scripts/ai_news_sync.py weekly
 | 項目 | 說明 |
 |------|------|
 | 更新時間 | 每天 09:00（台北時間） |
-| 來源數量 | 14 個 RSS Feed |
+| 來源數量 | 11 個 RSS Feed |
 | 每日篇數 | 約 15-20 篇新聞 |
 | 格式 | HTML（含關鍵詞標籤） |
 
@@ -68,9 +68,7 @@ python3 scripts/ai_news_sync.py weekly
 
 新聞會自動擷取以下關鍵詞：
 
-- AI, GPT, LLM, Agent, RAG, ML, Model, Training
-- Inference, Deployment, Generative, Claude, Safety
-- Reasoning, Benchmark, Performance, Open Source, Research
+AI, GPT, LLM, Agent, RAG, ML, Model, Training, Inference, Deployment, Generative, Claude, Safety, Reasoning, Benchmark, Performance, Open Source, Research
 
 ---
 
@@ -78,17 +76,15 @@ python3 scripts/ai_news_sync.py weekly
 
 原始 HTML 檔案同步自：
 
-```
 /Users/the_mini_bot/.openclaw/workspace/cdp_project/data/ai_news_*.html
-```
 
 ---
 
 ## 🔗 相關連結
 
-- **GitHub Repo**：[anappleaday1984/mini_bot](https://github.com/anappleaday1984/mini_bot)
-- **OpenClaw 專案**：[ CDP 數據分析平台](openclaw-project)
-- **RSS 聚合腳本**：`scripts/ai_news_sync.py`
+- GitHub Repo：anappleaday1984/mini_bot
+- OpenClaw 專案：CDP 數據分析平台
+- RSS 聚合腳本：scripts/ai_news_sync.py
 
 ---
 
