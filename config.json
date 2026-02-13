@@ -1,0 +1,15 @@
+{
+  "notes_folder": "/Users/the_mini_bot/Documents/MarkdownNotes",
+  "repo_folder": "/Users/the_mini_bot/mini_bot_backup",
+  "github_repo": "anappleaday1984/mini_bot",
+  "auto_commit": true,
+  "auto_push": true,
+  "schedule_time": "22:00",
+  "log_file": "./logs/backup.log",
+  "ignored_patterns": [
+    "*.tmp",
+    "*.swp",
+    ".DS_Store",
+    "Thumbs.db"
+  ]
+}
