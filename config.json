@@ -11,5 +11,14 @@
     "*.swp",
     ".DS_Store",
     "Thumbs.db"
-  ]
+  ],
+  "ai_news": {
+    "enabled": true,
+    "source_folder": "/Users/the_mini_bot/.openclaw/workspace/cdp_project/data/",
+    "notes_folder": "notes/ai_news",
+    "weekly_folder": "notes/ai_news/weekly",
+    "sync_daily": true,
+    "sync_weekly": true,
+    "weekly_day": 0
+  }
 }
